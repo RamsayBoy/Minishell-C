@@ -1,2 +1,2 @@
-minishell
-*.o
+bin/
+obj/
