@@ -8,7 +8,7 @@
  */
 
 #include <stdio.h>
-#include "ramsayboy.h"
+#include "../include/ramsayboy.h"
 
 void print_author_name()
 {

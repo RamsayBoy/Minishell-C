@@ -12,8 +12,8 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "parser.h"
-#include "minishell.h"
+#include "../include/parser.h"
+#include "../include/minishell.h"
 
 #define RESET_COLOR	"\x1b[0m"
 #define MAGENTA_T	"\x1b[35m"

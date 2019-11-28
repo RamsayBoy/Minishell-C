@@ -15,9 +15,9 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "parser.h"
-#include "minishell.h"
-#include "ramsayboy.h"
+#include "../include/parser.h"
+#include "../include/minishell.h"
+#include "../include/ramsayboy.h"
 
 #define BUFFER_SIZE	1024
 
