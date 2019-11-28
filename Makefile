@@ -64,6 +64,8 @@ create_dirs:
 
 clean:
 	@echo "[INFO] Cleaning..."
+	@rm -rfv $(SRC_DIR)/*.o
+	@rm -rfv $(SRC_DIR)/$(PROGRAM)
 	@rm -rfv $(OBJ_DIR)/*.o
 	@rm -rfv $(BIN_DIR)/$(PROGRAM)
 	@echo "[DONE] Successful cleaning"
